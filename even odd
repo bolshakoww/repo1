@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    int chislo;
+    cout<<"Это программа проверки числа на чётность!\n";
+    cout<<"Введите число:\n";
+    cin >> chislo;
+    if( chislo % 2 ==0)
+    {
+        cout << "Число чётное!";
+    }
+    else 
+    {
+        cout <<"Число нечётное!" ;
+    }
+    return 0;
+}
